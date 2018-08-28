@@ -1,0 +1,7 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/8f79cdc1-f940-4a1b-98a6-5c41c8c1267d/resourceGroups/CityQuestServices/providers/Microsoft.Web/sites/CityQuestServices",
+    "appService.deploySubpath": ""
+}
