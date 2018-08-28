@@ -4,6 +4,7 @@ const port = process.env.PORT || 3000;
 
 app.get('/', function (req, res) {
     res.send("<b>Hello</b>")
+    console.log("LOG")
 })
 
 app.get('/welcome', function (req, res) {
@@ -15,7 +16,7 @@ app.use(function (req, res, next) {
 });
 
 app.listen(port, function () {
-    console.log(`Listening `)
+    console.log(`Listening on ${port}`)
 })
 // const http = require('http'
 
