@@ -44,6 +44,16 @@ app.get('/store/get-all-adventures', (req, res) => {
                 currency: "EUR",
                 bought: false,
                 active: false
+            },
+            {
+                id: 4,
+                title: "Kafka",
+                subtitle: "Is it or not is?",
+                description: "Description of crazy Kafka's world.",
+                price: 6.95,
+                currency: "EUR",
+                bought: false,
+                active: false
             }
         ]
     }))
