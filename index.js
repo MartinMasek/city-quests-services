@@ -14,6 +14,7 @@ app.get('/welcome', (req, res) => {
 app.get('/store/get-all-adventures', (req, res) => {
     console.log("Asking for adventures...")
     res.setHeader('Content-Type', 'application/json');
+    res.setHeader('Cache-Control','public,max-age=20')
     res.send(JSON.stringify({
         adventures: [
             {
