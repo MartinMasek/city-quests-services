@@ -12,6 +12,7 @@ app.get('/welcome', (req, res) => {
 });
 
 app.get('/store/get-all-adventures', (req, res) => {
+    console.log("Asking for adventures...")
     res.setHeader('Content-Type', 'application/json');
     res.send(JSON.stringify({
         adventures: [
