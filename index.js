@@ -19,7 +19,7 @@ app.get('/store/get-all-adventures', (req, res) => {
         adventures: [
             {
                 id: 1,
-                title: "Stop the golem",
+                title: "Stop the golem!!",
                 subtitle: "The ancient golem woke up and 2 people are missing",
                 description: "Description description description description description description description description description description description description",
                 price: 14.95,
